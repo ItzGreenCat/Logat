@@ -1,6 +1,5 @@
-package me.greencat.logat;
+package me.greencat.logat.item.loader;
 
-import me.greencat.logat.item.CopperIngot;
 import me.greencat.logat.model.ModelRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ItemRegistry {
-    private static final List<Item> registerList = new ArrayList<Item>();
+    private static final List<Item> registerList = new ArrayList<>();
 
     public ItemRegistry() {
         MinecraftForge.EVENT_BUS.register(this);

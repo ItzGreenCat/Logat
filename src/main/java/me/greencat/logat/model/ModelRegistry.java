@@ -25,6 +25,7 @@ public class ModelRegistry {
         try {
             AbstractMap.SimpleEntry<Item, AbstractMap.SimpleEntry<Integer, ModelResourceLocation>> entry = new AbstractMap.SimpleEntry<>(item, new AbstractMap.SimpleEntry<>(metadata, new ModelResourceLocation(Objects.requireNonNull(item.getRegistryName()), "inventory")));
             registerList.add(entry);
+            Logat.logger.info("Registering model for item: " + item.getRegistryName() + ",metadata: " + metadata);
         } catch (Exception e) {
             Logat.logger.warning("Cannot register model for item: " + item.getRegistryName() + ",metadata: " + metadata);
         }

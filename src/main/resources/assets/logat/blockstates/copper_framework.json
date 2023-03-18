@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up": { "model": "logat:copper_framework" },
+    "facing=down": { "model": "logat:copper_framework", "x": 180 },
+    "facing=east": { "model": "logat:copper_framework", "y": 90, "x": 90 },
+    "facing=south": { "model": "logat:copper_framework", "y": 180, "x": 90 },
+    "facing=west": { "model": "logat:copper_framework", "y": 270, "x": 90 },
+    "facing=north": { "model": "logat:copper_framework", "y": 0, "x": 90 }
+  }
+}

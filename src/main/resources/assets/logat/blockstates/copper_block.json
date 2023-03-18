@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "logat:copper_block"
+    }
+  }
+}

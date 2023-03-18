@@ -1,3 +1,11 @@
 item.logat.copper_ingot.name=Copper Ingot
+item.logat.copper_rod.name=Copper Rod
+
+tile.logat.copper_ore.name=Copper Ore
+tile.logat.copper_block.name=Copper Block
+tile.logat.copper_framework.name=Copper Framework
+tile.logat.redstone_converter.name=Redstone Converter
 
 itemGroup.logat_item=Logat - Item
+itemGroup.logat_block=Logat - Block
+itemGroup.logat_logic_gate=Logat - Logic Gate

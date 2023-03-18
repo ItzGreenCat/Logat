@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "logat:copper_ingot",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "logat:copper_rod"
+    }
+  },
+  "result": {
+    "item": "logat:copper_framework"
+  }
+}

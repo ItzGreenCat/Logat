@@ -1,9 +1,9 @@
-package me.greencat.logat.item;
+package me.greencat.logat.item.base;
 
 import me.greencat.logat.Logat;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item {
+public abstract class ItemBase extends Item {
 
     private final String name;
 

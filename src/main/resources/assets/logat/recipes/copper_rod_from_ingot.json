@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "logat:copper_ingot",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    }
+  },
+  "result": {
+    "item": "logat:copper_rod",
+    "count": 8
+  }
+}
